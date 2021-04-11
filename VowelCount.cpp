@@ -105,8 +105,8 @@ int main(int argc, char*argv[])
         string ans7 = "The consonance count is: ";
         cout << left << ans7 << setw(43) << right << "." << TotalXYZ << endl; 
 
-        string ans8 = "The letter count is: ";
-        cout << left << ans8 << setw(48) << right << "." << Total << endl;
+        string ans9 = "The letter count is: ";
+        cout << left << ans9 << setw(48) << right << "." << Total << endl;
 
         system("pause");
         return 0;
