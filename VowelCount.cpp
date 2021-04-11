@@ -46,6 +46,7 @@ int main(int argc, char*argv[])
 
         int TotalV;
         int TotalXYZ; 
+        int Total;
         char c;
 
         // print and say what file is bing analyzed
@@ -74,6 +75,7 @@ int main(int argc, char*argv[])
         // Total number of vowels
         TotalV = As + Es + Is + Os + Us;
         TotalXYZ = Xs + Ys + Zs;
+        Total = TotalV + TotalXYZ;
 
         // Output statments and data
         string ans0 = "The number of A's: ";
@@ -102,6 +104,9 @@ int main(int argc, char*argv[])
 
         string ans7 = "The consonance count is: ";
         cout << left << ans7 << setw(43) << right << "." << TotalXYZ << endl; 
+
+        string ans8 = "The letter count is: ";
+        cout << left << ans8 << setw(48) << right << "." << Total << endl;
 
         system("pause");
         return 0;
